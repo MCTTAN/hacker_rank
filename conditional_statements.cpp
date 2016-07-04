@@ -1,14 +1,9 @@
 #include <iostream>
 using namespace std;
-
-int main()
-{
+int main(){
   int number;
-  
   cin >> number;
-  
-  if(number <= 9)
-  {
+  if(number <= 9){
     if(number == 1)
       cout << "one";
     else if(number == 2)
@@ -28,9 +23,7 @@ int main()
     else if(number == 9)
       cout << "nine";
   }
-  
   else if(number > 9)
     cout << "Greater than 9";
-    
   return 0;
 }
