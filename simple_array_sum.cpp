@@ -5,8 +5,7 @@ int main(){
   int size, sum, i, j;
   cin >> size;
   vector<int> numbers;
-  for(i = 0; i < size; ++i)
-  {
+  for(i = 0; i < size; ++i){
     int value;
     cin >> value;
     numbers.push_back(value);
