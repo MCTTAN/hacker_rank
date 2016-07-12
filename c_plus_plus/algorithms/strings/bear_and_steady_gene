@@ -45,7 +45,7 @@ int replace(string gene_code, int gene_length){
 int main(){
   string gene_code;
   int gene_length;
-  cin >> gene_length >> gene_length;
+  cin >> gene_length >> gene_code;
   cout << replace(gene_code, gene_length) << endl;
   return 0;
 }
