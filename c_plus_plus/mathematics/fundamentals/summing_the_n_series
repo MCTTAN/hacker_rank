@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+using namespace std;
+
+int main() 
+{
+    unsigned long long t, mod = 1e9 + 7;
+    cin >> t;
+    
+    while(t--)
+    {
+        unsigned long long n;
+        cin >> n;
+        n %= mod;
+        cout << (n * n) % mod << endl;
+    }
+    
+    return 0;
+}
